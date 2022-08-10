@@ -104,6 +104,7 @@ body {
 .main-content-two-info {
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 
 .image-places{
@@ -116,11 +117,17 @@ body {
 .text {
     display: flex;
     flex-direction: column;
+    font-weight: 700;
 }
 
 .Search{
     border-radius: 20px;
     height: 50px;
     width: 150px;
+    border: none;
+}
+
+.image-info {
+    height: 30px;
 }
 
